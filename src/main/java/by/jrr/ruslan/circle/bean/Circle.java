@@ -6,6 +6,7 @@ public class Circle {
     private double radius;
 
     public Circle() {
+//        no argument constructor
     }
 
     public Circle(double radius) {
