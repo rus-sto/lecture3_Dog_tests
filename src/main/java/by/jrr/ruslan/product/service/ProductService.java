@@ -15,8 +15,7 @@ public class ProductService {
         logger.info("For product - {}, with actual price = {} EUR,", product.getName(),+product.getRegularPrice());
         logger.info(" and discount = {} %, actual price is EUR= ",product.getDiscount());
 
-
-        return product.getRegularPrice()*(1-product.getDiscount()/100);
+              return product.getRegularPrice()*(1-product.getDiscount()/100);
 
     }
 
