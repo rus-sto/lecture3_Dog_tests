@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 
 public class CircleServiceTest {
 
+
     @Test
     public void calculateArea() {
         Circle circle = new Circle(2.0);
