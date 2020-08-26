@@ -25,6 +25,7 @@ public class CircleTest {
         boolean actuale = circle1.equals(circle2);
         assertEquals(expected, actuale);
     }
+
     @Test
     public void testEqualsFalse() {
         Circle circle1=new Circle();
